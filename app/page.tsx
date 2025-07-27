@@ -1,7 +1,9 @@
-import React from "react";
-
-const Home = () => {
-  return <h1 className="text-3xl text-light-500">Welcome to Next.js</h1>;
-};
+const Home = () => (
+  <>
+    <h1 className="h1-bold font-space-grotesk">
+      Welcome to the world of Next.js
+    </h1>
+  </>
+);
 
 export default Home;
